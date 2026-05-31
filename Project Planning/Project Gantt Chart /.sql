@@ -1,0 +1,58 @@
+# Bright Motors Car Sales Analytics Project - Gantt Chart
+
+```mermaid
+gantt
+    title Bright Motors Car Sales Analytics Project Timeline
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b
+
+    section Planning
+    Project Requirements Review          :done, p1, 2026-05-10, 1d
+    Miro Architecture Design             :done, p2, 2026-05-11, 2d
+
+    section Data Preparation
+    Dataset Import to Databricks         :done, p3, 2026-05-13, 1d
+    Data Cleaning & Validation           :done, p4, 2026-05-14, 2d
+    Data Transformation                  :done, p5, 2026-05-16, 1d
+
+    section SQL Development
+    Create Analysis Queries              :done, p6, 2026-05-17, 2d
+    Revenue Analysis                     :done, p7, 2026-05-19, 1d
+    Regional Performance Analysis        :done, p8, 2026-05-20, 1d
+    Trend Analysis                       :done, p9, 2026-05-21, 1d
+
+    section Dashboard Development
+    KPI Counter Cards                    :done, p10, 2026-05-22, 1d
+    Revenue Visualizations               :done, p11, 2026-05-23, 1d
+    Trend Visualizations                 :done, p12, 2026-05-24, 1d
+    Dashboard Formatting                 :done, p13, 2026-05-25, 1d
+
+    section Reporting & Presentation
+    Insight Generation                   :done, p14, 2026-05-26, 1d
+    Business Recommendations             :done, p15, 2026-05-27, 1d
+    PowerPoint Presentation              :done, p16, 2026-05-28, 2d
+
+    section Final Submission
+    Quality Assurance Review             :done, p17, 2026-05-30, 1d
+    GitHub Repository Upload             :milestone, p18, 2026-05-31, 0d
+```
+Bright-Motors-Car-Sales-Analytics/
+│
+├── README.md
+├── Project_Gantt_Chart.md
+│
+├── sql/
+│   └── car_sales_queries.sql
+│
+├── dashboard/
+│   ├── databricks_dashboard.png
+│   └── dashboard_insights.pdf
+│
+├── presentation/
+│   └── BrightMotors_Presentation.pdf
+│
+├── miro/
+│   └── architecture_diagram.png
+│
+└── data/
+    └── car_sales_processed.csv
