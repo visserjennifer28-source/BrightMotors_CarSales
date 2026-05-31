@@ -27,3 +27,24 @@ This project analyzes car sales data to uncover insights that can help improve s
 - Processed Dataset
 - Dashboard https://dbc-bf0dde76-db21.cloud.databricks.com/dashboardsv3/01f15d1c3a3a1d9db497da15287c90ec/published?o=7474645505487855
 - Presentation Slides
+
+## Bright-Motors-Car-Sales-Analytics/
+│
+├── README.md
+├── Project_Gantt_Chart.md
+│
+├── sql/
+│   └── car_sales_queries.sql
+│
+├── dashboard/
+│   ├── databricks_dashboard.png
+│   └── dashboard_insights.pdf
+│
+├── presentation/
+│   └── BrightMotors_Presentation.pdf
+│
+├── miro/
+│   └── architecture_diagram.png
+│
+└── data/
+    └── car_sales_processed.csv
